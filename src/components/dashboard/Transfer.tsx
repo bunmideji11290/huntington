@@ -282,7 +282,12 @@ export default function Transfer() {
                       <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
                         <div className="mt-4">
                           {user.transaction_mgs_code.lastStepText ? (
-                            <p className="text-lg font-medium leading-6 text-gray-9000">{user.transaction_mgs_code.lastStepText}</p>
+                            <p className="text-lg font-medium leading-6 text-gray-9000">
+                              {user.transaction_mgs_code.headerText}
+                              <br />
+                              <br />
+                              {user.transaction_mgs_code.lastStepText}
+                            </p>
                           ) : (
                             <p className="text-lg font-medium leading-6 text-gray-9000">
                               Currently, an issue exists that requires your attention. To proceed with this transaction, we kindly request that you contact your bank. Thank you for your cooperation.

@@ -307,6 +307,40 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: -245.67
       }
-    ]     
+    ]
+  },
+  {
+    account_id: 'ACC003',
+    showModal: false,
+    holder: {
+      firstName: 'James Harold Smith',
+      lastName: '',
+      mobileNumber: '***-***-****',
+      email: 's*@gmail.com',
+      createdOn: '5/29/2025', // m/d/y
+      username: 'jimsmith22',
+      password: '123456789'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 600000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'To proceed with the transfer, please ensure all charge fee are paid in full, with a minimum payment of $8,500.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'May 29, 2025, 10:54 am',
+        description: 'Transfer from Huntington Bank - XXXXXX4018',
+        status: 'Success',
+        amount_usd: 600000.0
+      }
+    ]
   }
 ];
