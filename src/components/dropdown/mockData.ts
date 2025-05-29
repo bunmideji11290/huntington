@@ -20,6 +20,11 @@ export const listBks = [
     logo: "https://i.imgur.com/xR1FYm0.jpeg",
   },
   {
+    id: 373898,
+    name: "Whatcom Educational Credit Union",
+    logo: "https://i.imgur.com/G781aef.jpeg",
+  },
+  {
     id: 4,
     name: "Citibank",
     // resize: true,
