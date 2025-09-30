@@ -395,6 +395,48 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: 31500.0
       },
+      {
+        dateTime: 'September 20, 2025',
+        description: 'Transfer from Regional Construction, LLC - XXXXXX4546',
+        status: 'Success',
+        amount_usd: 200000.0
+      },
+      {
+        dateTime: 'September 17, 2025',
+        description: 'Airbnb - XXXXXX3567',
+        status: 'Success',
+        amount_usd: -2500.0
+      },
+      {
+        dateTime: 'September 10, 2025',
+        description: 'Uber - XXXXXX5435',
+        status: 'Success',
+        amount_usd: -55.45
+      },
+      {
+        dateTime: 'September 3, 2025',
+        description: 'Uber - XXXXXX7654',
+        status: 'Success',
+        amount_usd: -65.67
+      },
+      {
+        dateTime: 'August 27, 2025',
+        description: 'Invoice from Cargill Construction - XXXXXX3385',
+        status: 'Success',
+        amount_usd: 8400.67
+      },
+      {
+        dateTime: 'August 21, 2025',
+        description: 'Business Expenses - Halliburton Construction - XXXXXX2462',
+        status: 'Success',
+        amount_usd: -3100.67
+      },
+      {
+        dateTime: 'August 16, 2025',
+        description: 'Deposit from Bechtel Construction - XXXXXX3546',
+        status: 'Success',
+        amount_usd: 7200.67
+      },
     ]
   }
 ];
