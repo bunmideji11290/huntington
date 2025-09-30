@@ -344,7 +344,7 @@ export const mockAccounts: Account[] = [
   },
   {
     account_id: 'ACC004',
-    showModal: false,
+    showModal: true,
     holder: {
       firstName: 'Chantel Park',
       email: 'c*@gmail.com',
