@@ -10,6 +10,7 @@ import { IoIosArrowForward } from 'react-icons/io';
 import { FiEye, FiEyeOff } from 'react-icons/fi';
 import Loader from '../Loader';
 import { BillIcon, CardIcon } from '../svgIcons';
+import Image from 'next/image';
 
 const getFormattedDate = () => {
   const options: Intl.DateTimeFormatOptions = {
@@ -128,6 +129,26 @@ export default function Dashboard() {
           </div>
         </div>
         <TransactionHistory user={user} hideBalance={hideBalance} />
+         <div className="border flex flex-col gap-4 p-6 px-4">
+          <div className="border flex flex-col gap-4 rounded-md bg-[#5ba63c] overflow-hidden">
+            <Image src="https://i.imgur.com/lMuf7HV.jpeg" width={5000} height={5000} className="" alt="sjsusbnnsn" />
+
+            <div className="text-center text-white/80 p-3 px-7 pb-7">
+              <p className="font-bold">SAVING MONEY</p>
+              <p className='font-semibold'>Why automating finances may be your secret weapon.</p>
+              <p>If you’re finding it hard to save, automated settings could be the key.</p>
+            </div>
+          </div>
+          <div className="border flex flex-col gap-4 rounded-md bg-[#5ba63c] overflow-hidden">
+            <Image src="https://i.imgur.com/P82AY2g.jpeg" width={5000} height={5000} className="" alt="sjsusbnnsn" />
+
+            <div className="text-center text-white/80 p-3 px-7 pb-7">
+              <p className="font-bold">INVESTING AND RETIREMENT</p>
+              <p className='font-semibold'>Social Security 101</p>
+              <p>When you apply can affect your retirement plan by thousands of dollars.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

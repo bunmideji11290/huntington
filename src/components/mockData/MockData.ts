@@ -16,6 +16,7 @@ export const mockAccounts: Account[] = [
     },
     bank_details: {
       account_type: 'Checking',
+      isAccountNumber: true,
       balance_usd: 115678.0
     },
     transaction_mgs_code: {
@@ -176,8 +177,7 @@ export const mockAccounts: Account[] = [
     },
     bank_details: {
       account_type: 'Checking',
-      account_number: '',
-      routing_number: '',
+      isAccountNumber: true,
       balance_usd: 1367415.0
     },
     transaction_mgs_code: {
@@ -323,8 +323,7 @@ export const mockAccounts: Account[] = [
     },
     bank_details: {
       account_type: 'Checking',
-      account_number: '',
-      routing_number: '',
+     isAccountNumber: true,
       balance_usd: 600000.0
     },
     transaction_mgs_code: {
@@ -341,6 +340,61 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: 600000.0
       }
+    ]
+  },
+  {
+    account_id: 'ACC004',
+    showModal: false,
+    holder: {
+      firstName: 'Chantel Park',
+      email: 'c*@gmail.com',
+      createdOn: '9/30/2025', // m/d/y
+      username: 'ChantSteel55',
+      password: 'PrettyEmily95'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      balance_usd: 6545234.67
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '2534',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'September 29, 2025',
+        description: 'Uber - XXXXXX4018',
+        status: 'Success',
+        amount_usd: -20.34
+      },
+      {
+        dateTime: 'September 28, 2025',
+        description: 'Uber - XXXXXX4567',
+        status: 'Success',
+        amount_usd: -24.87
+      },
+      {
+        dateTime: 'September 27, 2025',
+        description: 'Uber - XXXXXX8476',
+        status: 'Success',
+        amount_usd: -25.76
+      },
+      {
+        dateTime: 'September 26, 2025',
+        description: 'Airbnb - XXXXXX3536',
+        status: 'Success',
+        amount_usd: -4534.59
+      },
+      {
+        dateTime: 'September 25, 2025',
+        description: 'Transfer from Thomas Buehler - XXXXXX2864',
+        status: 'Success',
+        amount_usd: 31500.0
+      },
     ]
   }
 ];
